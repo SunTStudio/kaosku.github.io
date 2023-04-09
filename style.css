@@ -1,0 +1,12 @@
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: skyblue;
+    opacity: 50%;
+    background-size: 50%, 50%;
+    border-radius: 20%;
+}
+
+section {
+	padding-top: 2rem;
+}
