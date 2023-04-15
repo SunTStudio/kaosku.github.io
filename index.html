@@ -11,7 +11,7 @@
 
 <!-- Navabar -->
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+ <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
   <div class="container">
     <a class="navbar-brand" href="#beranda">KaosKu.com</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,45 +40,61 @@
       </ul>
     </div>
   </div>
-</nav>
+ </nav>
 
 <!-- Navbar End -->
 
 <!-- Beranda (Slide) -->
-<section id="beranda">
-    <div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <section id="beranda">
+      <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/slide11.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide22.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/slide33.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/slide11.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/slide22.png" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/slide33.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</section>
+  </section>
 <!-- Beranda End -->
+
+<!-- Intro -->
+
+  <section id="intro">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center" style="padding: 10%"><h2>KaosKu.com</h2>
+          <p>Toko Online Penyedia Kaos-Kaos Brand terkenal yang sudah terjamin ke originalitasnya</p>
+        </div>
+        <div class="col-md-6" style="padding: 12%"><a href=""><img src="img/logo.png" class="img-fluid" ></a></div>
+      </div>
+    </div>
+  </section>
+
+<!-- Intro end -->
+
 
 <!-- Produk -->
 
  
-<section id="produk">
+  <section id="produk">
    <div class="container mt-5">
     <div class="row text-center mb-3">
       <div class="col"><h2>Produk Kami</h2></div>
@@ -204,9 +220,39 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-  </div>
-</section>
+      </div>
+    </section>
 <!-- Produk End -->
+
+<!-- Kategori -->
+
+  <section id="kategori"> 
+
+      <div class="container"> 
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-4 text-center"><h2>Kategori Kaos</h2></div>
+        </div>
+        <div class="row"> 
+            <div class="col-md-4 hover-effect"> 
+              <h1 class="z-3 position-absolute text-white" style="margin: 10%;margin-top: 20%;">PRIA</h1>
+              <a href=" "><img src="img/modellaki.png" class="img-fluid"></a>
+            </div>
+            <div class="col-md-4 hover-effect"> 
+              <h1 class="z-3 position-absolute text-white" style="margin: 9%;margin-top: 20%;">ANAK</h1>
+              <a href=" "><img src="img/modelanak.png" class="img-fluid"></a>
+            </div>
+            <div class="col-md-4 hover-effect"> 
+              <h1 class="z-3 position-absolute text-white" style="margin: 4%;margin-top: 20%;">PEREMPUAN</h1>
+              <a href=" "><img src="img/modelperempuan.png" class="img-fluid"></a>
+            </div>
+
+        </div>
+      </div> 
+
+  </section>
+
+<!-- Kategori End -->
+
 
 <!-- Kontak -->
   <section id="kontak">
@@ -270,9 +316,9 @@
 <!-- kantor end -->
 
 <!-- footer -->
-      <footer class="bg-primary text-white text-center p-3" style="margin-top: 10rem">
-      <p>Created with Love by <a href="#" class="text-white fw-bold" >SunStudio</a></p>
-    </footer>
+      <footer class="bg-dark text-white text-center p-3" style="margin-top: 10rem">
+          <p>Created with Love by <a href="#" class="text-white fw-bold" >SunStudio</a></p>
+      </footer>
 
     <!-- footer END -->
 
